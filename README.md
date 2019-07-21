@@ -27,6 +27,8 @@ System Health is
 
  Live Streaming is
  
+ ![live](https://user-images.githubusercontent.com/35352600/61587366-39b24680-ab57-11e9-820e-b3c7e99f96da.JPG)
+ 
 ![88](https://user-images.githubusercontent.com/35352600/61422189-9d7b0c00-a8d8-11e9-9364-f550aaea1652.JPG)
 
 # Voice Commands using Watson Speech to Text and Text to Speech API and NodeJS 

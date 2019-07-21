@@ -14,8 +14,7 @@ Project components and elements:
 
 AFM System is
 
-![WhatsApp Image 2019-01-01 at 11 23 46 PM (3)](https://user-images.githubusercontent.com/35352600/61340603-0434f280-a811-11e9-8265-6381ec0c3d55.jpeg)
-
+![WhatsApp Image 2019-01-01 at 11 23 46 PM (2)](https://user-images.githubusercontent.com/35352600/61595398-c810e180-abc4-11e9-9830-1117da53bc4a.jpeg)
 
  # Weather System
 

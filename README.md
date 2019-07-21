@@ -15,7 +15,7 @@ Project components and elements:
 - Voice Commands
 - Visual Recognition
 
-# AFM System using IBM Metal Server 
+# AFM System 
 
 AFM System is
 
@@ -28,6 +28,22 @@ Status and health of the fleet to increase the Utilization of the fleet
 Telemetry of all safety critical electrical and mechanical systems on the vehicles. 
 
 Speech interface enables hands free approach - this allows greater multi-tasking opportunity 
+
+Introduction: 
+
+We believe that in the future all commercial UAVs will be required to log a flight plan to perform operations.  The flight plan will need to be communicated to other UTMs, possibly manned ATMs and possibly to other UAVs in flight. Additionally, flight plans will be required to adhere to various rules, no-flight zones, restricted airspace etc. 
+
+Currently, creating a Flight plan is a manual process. Software exists (Unifly, AirMap, etc.) that enables a user to plot waypoints on a map (via mouse/finger clicks). Some software can show restricted zones to make the manual process a little easier and faster. 
+
+What we are proposing for the Flight Planning module is to create an algorithm that can automatically create a flight plan, and waypoints based on minimal human input.  The algorithm will suggest the optimal path between 2 points, based on a set of rules.  The waypoints may be aggregated into "sectors", the overall flight plan being made up of a few sectors.  Individual drones will determine via their internal flight controller how to best move along the sectors and waypoints, augmenting data through on-board sensors to adapt to real time conditions, obstacles, anti-collision avoidance, etc.  The initial flight plan submitted needs to adapt to on-board data and in-flight conditions. 
+
+Working procedure for AFM 
+
+The AFM allows a dispatcher to create a job (made up of one or many actions) and execute that job as a mission for an assigned drone at a point, line, or area. The dispatcher can simulate the mission or execute it against a real drone and view the status in real time. The AFM provides admin functionality to allow Aeronyde users to set up drones, headquarters, landing zones, obstacles, and restricted areas. 
+
+Component of AFM 
+
+The AFM is a web application built using Angular which communicates to Node.js web services. Commands are sent to a message queue (RabbitMQ) and stateful data is stored in MongoDB. The companion computer on the drone (typically a Raspberry Pi, Jetson Tx2) has FlytOS installed and runs python code that checks for commands on the message queue, executes those commands by sending them to the FlytOS API on the companion computer and sends status updates to the message queue. 
 
 ![AF](https://user-images.githubusercontent.com/35352600/61597919-737d5e80-abe4-11e9-9026-69228072edbd.jpg)
 

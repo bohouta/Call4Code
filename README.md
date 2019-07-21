@@ -11,6 +11,8 @@ AFM System using IBM Metal Server
 
 IBM Weather and Node Red
 
+![SYSTEM](https://user-images.githubusercontent.com/35352600/61587258-8fd1ba80-ab54-11e9-8c04-378a19c1679c.JPG)
+
 ![22](https://user-images.githubusercontent.com/35352600/61340929-680beb00-a812-11e9-8d4b-7595db08790f.JPG)
 
 # System Health using IBM Watson IOT and Node Red

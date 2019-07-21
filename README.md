@@ -56,6 +56,6 @@ Voice Commands is a tool that uses Watson Speech to Text and Text to Speech API 
 # Visual Recognition 
 
 Visual Recognition is a tool that uses Watson Visual Recognition API and NodeJS
-
+[The SkyEyes will be used to connect a drone to the IBM Watson Cloud with real-time image, video, and data analysis using the IBM Watson Cloud AI resources. This system allows the drones to send a live video stream, image, voice, and data directly to the IBM Watson Cloud and to the control rooms. Also, while the drone is in the air, the system will send the images, voices, and data in real-time to the IBM Watson Cloud for the processing and for the analysis this data by using the IBM Watson Visual Recognition. Then the system will send the results to the enterprises that will use the system ]
 ![ob](https://user-images.githubusercontent.com/35352600/61596212-ac123d80-abce-11e9-8d5e-f62d09a94ca1.jpg)
 

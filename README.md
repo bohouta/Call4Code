@@ -1,5 +1,14 @@
-# Call4Code IBM APIs
+# SAFER Project
 
+SAFER is 
+
+Project components and elements:
+- AFM System
+- Weather System 
+- System Health
+- Live Streaming
+- Voice Commands
+- Visual Recognition
 
 # AFM System using IBM Metal Server 
 

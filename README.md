@@ -22,7 +22,7 @@ Weather System is a dashboard that uses IBM Weather and Node Red
 
 ![SYSTEM](https://user-images.githubusercontent.com/35352600/61587258-8fd1ba80-ab54-11e9-8c04-378a19c1679c.JPG)
 
-![22](https://user-images.githubusercontent.com/35352600/61340929-680beb00-a812-11e9-8d4b-7595db08790f.JPG)
+![nwa](https://user-images.githubusercontent.com/35352600/61597283-9dcb1e00-abdc-11e9-8380-9fd355ab0394.JPG)
 
 # System Health 
 

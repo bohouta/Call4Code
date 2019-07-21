@@ -17,9 +17,9 @@ AFM System is
 ![WhatsApp Image 2019-01-01 at 11 23 46 PM (3)](https://user-images.githubusercontent.com/35352600/61340603-0434f280-a811-11e9-8265-6381ec0c3d55.jpeg)
 
 
- # Weather System using IBM Weather and Node Red
+ # Weather System
 
-Weather System is
+Weather System is a dashboard that uses IBM Weather and Node Red
 
 ![SYSTEM](https://user-images.githubusercontent.com/35352600/61587258-8fd1ba80-ab54-11e9-8c04-378a19c1679c.JPG)
 
@@ -28,6 +28,8 @@ Weather System is
 # System Health using IBM Watson IOT and Node Red
 
 System Health is
+
+![hs](https://user-images.githubusercontent.com/35352600/61595360-25586300-abc4-11e9-9994-7c089a7b5fed.jpg)
 
 ![111](https://user-images.githubusercontent.com/35352600/61419551-c1385500-a8cc-11e9-81a0-49df8414d236.JPG)
 

@@ -22,7 +22,7 @@ IBM Weather and Node Red
 ![111](https://user-images.githubusercontent.com/35352600/61419551-c1385500-a8cc-11e9-81a0-49df8414d236.JPG)
 
 
-# System Health using IBM Watson IOT and Node Red
+# Live Streaming using IBM Watson IOT, Node Red and NodeJS 
 
 IBM Weather and Node Red
 

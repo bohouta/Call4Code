@@ -3,13 +3,14 @@
 
 # AFM System using IBM Metal Server 
 
-AFM System using IBM Metal Server
+AFM System is
+
 ![WhatsApp Image 2019-01-01 at 11 23 46 PM (3)](https://user-images.githubusercontent.com/35352600/61340603-0434f280-a811-11e9-8265-6381ec0c3d55.jpeg)
 
 
  # Weather System using IBM Weather and Node Red
 
-IBM Weather and Node Red
+Weather System is
 
 ![SYSTEM](https://user-images.githubusercontent.com/35352600/61587258-8fd1ba80-ab54-11e9-8c04-378a19c1679c.JPG)
 
@@ -17,22 +18,23 @@ IBM Weather and Node Red
 
 # System Health using IBM Watson IOT and Node Red
 
-IBM Weather and Node Red
+System Health is
 
 ![111](https://user-images.githubusercontent.com/35352600/61419551-c1385500-a8cc-11e9-81a0-49df8414d236.JPG)
 
 
 # Live Streaming using IBM Watson IOT, Node Red and NodeJS 
 
-IBM Weather and Node Red
-
+ Live Streaming is
+ 
 ![88](https://user-images.githubusercontent.com/35352600/61422189-9d7b0c00-a8d8-11e9-9364-f550aaea1652.JPG)
 
 # Voice Commands using Watson Speech to Text and Text to Speech API and NodeJS 
 
-IBM Weather and Node Red
+Voice Commands is
+![SPEECH](https://user-images.githubusercontent.com/35352600/61587298-a593af80-ab55-11e9-89cd-e46d2eeacb8e.JPG)
 
 
 # Visual Recognition using Watson Visual Recognition API and NodeJS
 
-IBM Weather and Node Red
+Visual Recognition is

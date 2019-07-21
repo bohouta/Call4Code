@@ -1,7 +1,7 @@
 # Call4Code IBM APIs
 
 
-# AFM System using IBM Metal Server
+# AFM System using IBM Metal Server 
 
 AFM System using IBM Metal Server
 ![WhatsApp Image 2019-01-01 at 11 23 46 PM (3)](https://user-images.githubusercontent.com/35352600/61340603-0434f280-a811-11e9-8265-6381ec0c3d55.jpeg)
@@ -26,3 +26,11 @@ IBM Weather and Node Red
 
 ![88](https://user-images.githubusercontent.com/35352600/61422189-9d7b0c00-a8d8-11e9-9364-f550aaea1652.JPG)
 
+# Voice Commands using Watson Speech to Text and Text to Speech API and NodeJS 
+
+IBM Weather and Node Red
+
+
+# Visual Recognition using Watson Visual Recognition API and NodeJS
+
+IBM Weather and Node Red

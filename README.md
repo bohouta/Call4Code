@@ -19,6 +19,16 @@ Project components and elements:
 
 AFM System is
 
+Autonomous Fleet Management (AFM) is a platform that provides connectivity between vehicles, operators, managers and customers.  
+
+Customizable real-time location, routing and arrival times.  
+
+Status and health of the fleet to increase the Utilization of the fleet 
+
+Telemetry of all safety critical electrical and mechanical systems on the vehicles. 
+
+Speech interface enables hands free approach - this allows greater multi-tasking opportunity 
+
 ![AF](https://user-images.githubusercontent.com/35352600/61597919-737d5e80-abe4-11e9-9026-69228072edbd.jpg)
 
 
@@ -74,7 +84,7 @@ Speech interface enables hands free approach - this allows greater multi-tasking
 
 The Structure of Voice Controlled UAV: 
 
-AFM Knowledge Base: 
+- AFM Knowledge Base: 
 
 AFM Knowledge Base has all information about vehicles, operators, and managers. 
 

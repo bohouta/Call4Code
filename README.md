@@ -19,6 +19,7 @@ Project components and elements:
 
 AFM System is
 
+Rewriting: 
 Autonomous Fleet Management (AFM) is a platform that provides connectivity between vehicles, operators, managers and customers.  
 
 Customizable real-time location, routing and arrival times.  

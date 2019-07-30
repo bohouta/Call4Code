@@ -1,9 +1,8 @@
 # SAFER Project
 
-SAFER is 
+Search and Assessment for Emergency Response SAFER, Aeronyde’s SAFER network leverages a suite of powerful hardware and software tools which work in harmony to enhance early warning systems, improve situational awareness, and streamline response efforts to get help to those that need it most, before it’s too late. Here’s how SAFER will help Emergency Management Agencies, like FEMA, better prepare, respond and recover from disasters.
 
-Rewriting: 
-[The Drones also known as Unmanned Aerial Vehicles (UAVs), or Unmanned Aerial Systems (UASs) are growing rapidly over the past few years and are expected to keep growing in the very near future. The drone market is expanding with new models that target different segments of the consumer and commercial market, such as wildfire alarm system, climate change, aiding in wildlife preservation, improving agricultural management, insurance adjustment, real estate surveying, automated deliveries, roof inspections, tracking disease outbreaks, and directing disaster relief. Also, when the drones are combined with a super machine, high-definition cameras, smart sensors and devices, cloud AI resources, and other new technologies, the drones become remarkably more advanced. However, this proposal presents the Forest Fire Alarm System that will be used to connect a drone to the IBM Watson cloud for detecting and alerting the Fire Department about smoke, fire or other emergencies. The Forest Fire Alarm System has two main models. The first model is a drone model that uses machine learning algorithms using python TensorFlow and OpenCV with some machine learning libraries. This model runs on a drone that has AeroBoard with Nvidia Jetson TX2, a high-definition camera, Forward-looking infrared (FLIR) camera, smoke detector sensor, professional microphone, and LTE/4G modem. The second model is a cloud model that runs on the IBM Watson cloud with some IBM APIs such as visual recognition, Internet of things, data analysis and other tools. The main aim of this proposal is to build a drone that can fly by itself using autonomous fleet management. When the drone is in the sky and starting its mission, the drone model will analyze and gatherer the videos, voices and data in real-time from the forest by using python TensorFlow and OpenCV with some machine learning libraries, then extracts frames of the videos that collect by the cameras, the feature of voices that collect by the microphone, and the data that collect by the sensors; then the drone model will send all frames, features and data to the cloud model in the IBM Watson cloud server for analyzing all them, and making the final decision, then sending the result to the Fire Department dashboard.]
+The SAFER system has two main models. The first model is a drone model that uses machine learning algorithms using python TensorFlow and OpenCV with some machine learning libraries. This model runs on a drone that has AeroBoard with Nvidia Jetson TX2, a high-definition camera, Forward-looking infrared (FLIR) camera, some sensors, professional microphone, and LTE/4G modem. The second model is a cloud model that runs on the IBM Watson cloud with some IBM APIs such as visual recognition, Internet of things, data analysis and other tools. The main aim of this proposal is to build a drone that can fly by itself using autonomous fleet management. When the drone is in the sky and starting its mission, the drone model will analyze and gatherer the videos, voices and data in real-time by using python TensorFlow and OpenCV with some machine learning libraries, then extracts frames of the videos that collect by the cameras, the feature of voices that collect by the microphone, and the data that collect by the sensors; then the drone model will send all frames, features and data to the cloud model in the IBM Watson cloud server for analyzing all them, and making the final decision, then sending the result to the main control room.
 
 ![WhatsApp Image 2019-01-01 at 11 23 46 PM (2)](https://user-images.githubusercontent.com/35352600/61595398-c810e180-abc4-11e9-9830-1117da53bc4a.jpeg)
 
@@ -17,30 +16,7 @@ Project components and elements:
 
 # AFM System 
 
-AFM System is
-
-Rewriting: 
-Autonomous Fleet Management (AFM) is a platform that provides connectivity between vehicles, operators, managers and customers.  
-
-Customizable real-time location, routing and arrival times.  
-
-Status and health of the fleet to increase the Utilization of the fleet 
-
-Telemetry of all safety critical electrical and mechanical systems on the vehicles. 
-
-Speech interface enables hands free approach - this allows greater multi-tasking opportunity 
-
-Introduction: 
-
-We believe that in the future all commercial UAVs will be required to log a flight plan to perform operations.  The flight plan will need to be communicated to other UTMs, possibly manned ATMs and possibly to other UAVs in flight. Additionally, flight plans will be required to adhere to various rules, no-flight zones, restricted airspace etc. 
-
-Currently, creating a Flight plan is a manual process. Software exists (Unifly, AirMap, etc.) that enables a user to plot waypoints on a map (via mouse/finger clicks). Some software can show restricted zones to make the manual process a little easier and faster. 
-
-What we are proposing for the Flight Planning module is to create an algorithm that can automatically create a flight plan, and waypoints based on minimal human input.  The algorithm will suggest the optimal path between 2 points, based on a set of rules.  The waypoints may be aggregated into "sectors", the overall flight plan being made up of a few sectors.  Individual drones will determine via their internal flight controller how to best move along the sectors and waypoints, augmenting data through on-board sensors to adapt to real time conditions, obstacles, anti-collision avoidance, etc.  The initial flight plan submitted needs to adapt to on-board data and in-flight conditions. 
-
-Working procedure for AFM 
-
-The AFM allows a dispatcher to create a job (made up of one or many actions) and execute that job as a mission for an assigned drone at a point, line, or area. The dispatcher can simulate the mission or execute it against a real drone and view the status in real time. The AFM provides admin functionality to allow Aeronyde users to set up drones, headquarters, landing zones, obstacles, and restricted areas. 
+Autonomous Fleet Management (AFM) is a platform that provides connectivity between vehicles, operators, managers and customers. Customizable real-time location, routing and arrival times, Status and health of the fleet to increase the Utilization of the fleet, telemetry of all safety critical electrical and mechanical systems on the vehicles, speech interface enables hands free approach - this allows greater multi-tasking opportunity 
 
 Component of AFM 
 
@@ -51,7 +27,7 @@ The AFM is a web application built using Angular which communicates to Node.js w
 
  # Weather System
 
-Weather System is a dashboard that uses IBM Weather and Node Red
+Weather System is a dashboard that uses IBM Weather and Node Red to provide 
 
 ![SYSTEM](https://user-images.githubusercontent.com/35352600/61587258-8fd1ba80-ab54-11e9-8c04-378a19c1679c.JPG)
 

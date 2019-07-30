@@ -4,6 +4,7 @@ Search and Assessment for Emergency Response SAFER, Aeronyde’s SAFER network l
 
 The SAFER system has two main models. The first model is a drone model that uses machine learning algorithms using python TensorFlow and OpenCV with some machine learning libraries. This model runs on a drone that has AeroBoard with Nvidia Jetson TX2, a high-definition camera, Forward-looking infrared (FLIR) camera, some sensors, professional microphone, and LTE/4G modem. The second model is a cloud model that runs on the IBM Watson cloud with some IBM APIs such as visual recognition, Internet of things, data analysis and other tools. The main aim of this proposal is to build a drone that can fly by itself using autonomous fleet management. When the drone is in the sky and starting its mission, the drone model will analyze and gatherer the videos, voices and data in real-time by using python TensorFlow and OpenCV with some machine learning libraries, then extracts frames of the videos that collect by the cameras, the feature of voices that collect by the microphone, and the data that collect by the sensors; then the drone model will send all frames, features and data to the cloud model in the IBM Watson cloud server for analyzing all them, and making the final decision, then sending the result to the main control room.
 
+
 ![WhatsApp Image 2019-01-01 at 11 23 46 PM (2)](https://user-images.githubusercontent.com/35352600/61595398-c810e180-abc4-11e9-9830-1117da53bc4a.jpeg)
 
 Project components and elements:

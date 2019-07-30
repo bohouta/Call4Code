@@ -48,7 +48,7 @@ Drone Board
 
 # Live Streaming 
 
- Live Streaming is a component that uses IBM Watson IOT, Node Red and NodeJS 
+ Live Streaming is a component provides using IBM Watson IOT, Node Red and NodeJS 
  
  ![live](https://user-images.githubusercontent.com/35352600/61587366-39b24680-ab57-11e9-820e-b3c7e99f96da.JPG)
  

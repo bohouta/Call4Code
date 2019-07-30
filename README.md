@@ -30,7 +30,7 @@ The AFM is a web application that host on ibm cloud and built using Angular whic
 
  # Weather System
 
-Weather System is a dashboard that uses IBM Weather and Node Red to provide 
+Weather System is a dashboard that provides weather forecasting using IBM Weather and Node Red 
 
 ![SYSTEM](https://user-images.githubusercontent.com/35352600/61587258-8fd1ba80-ab54-11e9-8c04-378a19c1679c.JPG)
 
@@ -38,7 +38,7 @@ Weather System is a dashboard that uses IBM Weather and Node Red to provide
 
 # System Health 
 
-System Health is a dashboard that uses Drone Sensors, IBM Watson IOT and Node Red
+System Health is a dashboard that provides system health, weather forecasting and gas qualit from sensors on derone uusing Sensors, IBM Watson IOT and Node Red
 
 ![hs](https://user-images.githubusercontent.com/35352600/61595360-25586300-abc4-11e9-9994-7c089a7b5fed.jpg)
 Drone Sensors

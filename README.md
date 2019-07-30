@@ -23,7 +23,7 @@ Autonomous Fleet Management (AFM) is a platform that provides connectivity betwe
 
 Component of AFM 
 
-The AFM is a web application built using Angular which communicates to Node.js web services. Commands are sent to a message queue (RabbitMQ) and stateful data is stored in MongoDB. The companion computer on the drone (typically a Raspberry Pi, Jetson Tx2) has FlytOS installed and runs python code that checks for commands on the message queue, executes those commands by sending them to the FlytOS API on the companion computer and sends status updates to the message queue. 
+The AFM is a web application that host on ibm cloud and built using Angular which communicates to Node.js web services. Commands are sent to a message queue (RabbitMQ) and stateful data is stored in MongoDB. The companion computer on the drone (typically a Raspberry Pi, Jetson Tx2) has FlytOS installed and runs python code that checks for commands on the message queue, executes those commands by sending them to the FlytOS API on the companion computer and sends status updates to the message queue. 
 
 ![AF](https://user-images.githubusercontent.com/35352600/61597919-737d5e80-abe4-11e9-9026-69228072edbd.jpg)
 

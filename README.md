@@ -58,26 +58,8 @@ Drone Board
 
 # Voice Commands 
 
-Voice Commands is a tool that uses Watson Speech to Text and Text to Speech API and NodeJS 
-
-Control systems for such fleets of UAVs are required to have features such as decentralization, modular design and interoperability between human controllers and UAVs 
-
-We propose a framework which provides voice control for UAVs. This framework consists of an acoustic model created from speech data gathered in situ at a custom build recording booth designed to emulate a UAV control room/station, a language model incorporating phrases and jargon used in a UAS, and a GIS phrase dictionary which allows efficient commands related to waypoint locations on a UAS geolocation system.  
-
-The platform is designed with modularity as a key characteristic, therefore allowing language models and phrase dictionaries to be swappable with others as newer or better such language models or dictionaries are made available. 
-
-Utilizing a speech interface for AFM 
-
-Autonomous Fleet Management (AFM) is a platform that provides connectivity between vehicles, operators, managers and customers.  
-
-Customizable real-time location, routing and arrival times.  
-
-Status and health of the fleet to increase the Utilization of the fleet 
-
-Telemetry of all safety critical electrical and mechanical systems on the vehicles. 
-
-Speech interface enables hands free approach - this allows greater multi-tasking opportunity 
-
+Voice Commands is a tool that utilize a speech interface for AFM using Watson Speech to Text and Text to Speech API and NodeJS. Speech interface enables hands free approach - this allows greater multi-tasking opportunity.  
+ 
 The Structure of Voice Controlled UAV: 
 
 - AFM Knowledge Base: 
@@ -95,7 +77,6 @@ For example:
 User: How many vehicles on the ground?  AFM: There are 5 vehicles on the ground 
 
 User: How many vehicles on the mission? AFM: There are 8 vehicles on the mission 
-
 
 - Speech to Text Model: 
 
@@ -181,8 +162,10 @@ User: AFM: Vehicle number is 0018.  AFM: The battery level is 50%.
 
 # Visual Recognition 
 
-Visual Recognition is a tool that uses Watson Visual Recognition API and NodeJS
+Visual Recognition is a tool that uses Watson Visual Recognition API, TensorFlow, OpenCV and NodeJS
 
+The second model is a cloud model that runs on the IBM Watson cloud with some IBM APIs such as visual recognition, Internet of things, data analysis and other tools. the drone model will analyze and gatherer the videos, voices and data in real-time by using python TensorFlow and OpenCV with some machine learning libraries, then extracts frames of the videos that collect by the cameras, the feature of voices that collect by the microphone, and the data that collect by the sensors; then the drone model will send all frames, features and data to the cloud model in the IBM Watson cloud server for analyzing all them, and making the final decision, then sending the result to the main control room
+ 
 Rewriting: 
 [The SkyEyes will be used to connect a drone to the IBM Watson Cloud with real-time image, video, and data analysis using the IBM Watson Cloud AI resources. This system allows the drones to send a live video stream, image, voice, and data directly to the IBM Watson Cloud and to the control rooms. Also, while the drone is in the air, the system will send the images, voices, and data in real-time to the IBM Watson Cloud for the processing and for the analysis this data by using the IBM Watson Visual Recognition. Then the system will send the results to the enterprises that will use the system ]
 
